@@ -1,0 +1,9 @@
+export const metadata = {
+  title: "KADR — AI Video Generator",
+  description: "Tekst u video, u par sekundi.",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="sr">
+      <body style={{ margin: 0, background: "#0e1614" }}>{children}</body>
